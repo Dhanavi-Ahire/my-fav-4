@@ -1,0 +1,59 @@
+
+
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+    }
+    .profile {
+    margin-top: 200px;
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    }
+    #welcome {
+    position: absolute;
+    height: 800px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background:linear-gradient(#34deeb 0%, #4f34eb 100%) ;
+    }
+    
+    .links {
+     display: inline;
+    color:rgb(238, 0, 255);
+    padding-top: 7px;
+    padding-left:9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    }
+    
+    .menu{
+    list-style: none;
+    position: fixed;
+    margin-top: 0px;
+    top:0px;
+    width: 100%;
+    right: 130px;
+    z-index: 10;
+    background: white;
+    cursor: pointer;
+    }
+    
+    .links:hover {
+        background-color: purple;
+        font-size: 25px;
+        text-decoration: underline;
+    }
+    
+    h1 {
+        font-family: 'Labrada', serif;
+    }
+    
+    h2 {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
